@@ -127,8 +127,15 @@ fun FuelSimulatorScreen() {
             Spacer(modifier = Modifier.height(8.dp))
 
             TextButton(
-                onClick = {}
-            ) { Text("Limpar")}
+                onClick = {
+                    distance = ""
+                    consumption = ""
+                    fuelNeeded = 0.0
+                },
+                modifier = Modifier.fillMaxWidth()
+            ) {
+                Text("Limpar")
+            }
 
             if (fuelNeeded > 0) {
                 Spacer(modifier = Modifier.height(32.dp))
