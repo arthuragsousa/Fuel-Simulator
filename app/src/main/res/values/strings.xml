@@ -1,0 +1,31 @@
+<resources>
+
+    <string name="app_name">
+        Simulador de Combustível
+    </string>
+
+    <string name="title">
+        Simulador de Combustível
+    </string>
+
+    <string name="subtitle">
+        Descubra quanto combustível você precisará para sua viagem.
+    </string>
+
+    <string name="distance">
+        Distância da viagem
+    </string>
+
+    <string name="consumption">
+        Consumo do veículo
+    </string>
+
+    <string name="calculate">
+        Calcular
+    </string>
+
+    <string name="result">
+        Combustível necessário
+    </string>
+
+</resources>
